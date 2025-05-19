@@ -1,26 +1,20 @@
-# ctransformers==0.2.5
-# sentence-transformers==2.2.2
-# pinecone-client==2.2.4
-# langchain==0.0.225
-# flask
-# pypdf
-# python-dotenv
+# Sentence embedding and transformer stack
+sentence-transformers==2.2.2
+transformers==4.29.2
+huggingface_hub==0.14.1
+pinecone
+langdetect
+# LangChain (FINAL fixed stack)
+langchain==0.1.17
+langchain-core==0.1.48
+langchain-community==0.0.36
 
-# Optional extras depending on the video structure
-# langchain-pinecone
-# langchain_community
-# langchain_openai
-# langchain_experimental
-
-langchain
-langchain-core
-langchain-openai
-langchain-community
-
-openai
-pinecone-client
-sentence-transformers
-pypdf
-flask
-python-dotenv
+# Core scientific stack
+torch>=1.12
+scikit-learn
+numpy
+pandas
+tqdm
+joblib
+requests
 -e .
