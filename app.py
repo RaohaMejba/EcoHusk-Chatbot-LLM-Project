@@ -78,7 +78,7 @@ def chat():
     thanks = ["thank you", "thanks", "thx", "thank u"]
     farewells = ["bye", "goodbye", "see you", "farewell", "talk to you later"]
 
-    # ✅ Manual check for common English expressions
+    # Manual check for common English expressions
     if any(greet in cleaned_msg for greet in greetings):
         return "Hello! I am EcoHusk Chatbot. What do you want to know about the EcoHusk project?"
 
@@ -91,7 +91,7 @@ def chat():
     if any(word in cleaned_msg for word in thanks):
         return "You're most welcome! Let me know if you have more questions about EcoHusk."
 
-    # ✅ Language detection fallback for other languages
+    # Language detection fallback for other languages
     try:
         detected_lang = detect(msg)
     except:
@@ -103,7 +103,7 @@ def chat():
     if detected_lang == "zh-cn" and "你好" in msg:
         return "你好！我是EcoHusk聊天机器人。您想了解EcoHusk项目的哪些内容？"
 
-    # ✅ Pass to RAG chain if not a simple greeting
+    # Pass to RAG chain if not a simple greeting
     response = rag_chain.invoke({"input": msg})
     return str(response["answer"])
 
