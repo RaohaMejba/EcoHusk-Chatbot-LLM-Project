@@ -168,7 +168,7 @@ Upload the chunk embeddings into the Pinecone index.
 ### Contact
 **RAOHA BIN MEJBA (李一含)**
 
-Project Lead, EcoHusk.AI
+Project Lead, EcoHusk
 
 Email: raoha@mail.ustc.edu.cn <br><br><br><br><br><br>
 
