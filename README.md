@@ -3,11 +3,15 @@
 EcoHusk.AI is a fully customized, intelligent, and multilingual chatbot designed to answer questions related to the EcoHusk project. The system integrates advanced LLM techniques with vector databases to create a seamless question-answering experience for users through a web-based GUI.<br><br>
 
 ## Screenshot of GUI APP
+<p align = "center">
+  
 <img src="https://github.com/RaohaMejba/EcoHusk-Chatbot-LLM-Project/blob/main/Screenshots/Screenshot_1.png?raw=true" width="600"/>
 
 <br>
 
 <img src="https://github.com/RaohaMejba/EcoHusk-Chatbot-LLM-Project/blob/main/Screenshots/Screenshot_2.png?raw=true" width="600"/>
+
+</p>
 
 <br>
 
