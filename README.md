@@ -3,7 +3,6 @@
 EcoHusk.AI is a fully customized, intelligent, and multilingual chatbot designed to answer questions related to the EcoHusk project. The system integrates advanced LLM techniques with vector databases to create a seamless question-answering experience for users through a web-based GUI.<br><br>
 
 ## Screenshot of GUI APP
-
 <img src="https://github.com/RaohaMejba/EcoHusk-Chatbot-LLM-Project/blob/main/Screenshots/Screenshot_1.png?raw=true" width="600"/>
 
 <br>
@@ -11,7 +10,6 @@ EcoHusk.AI is a fully customized, intelligent, and multilingual chatbot designed
 <img src="https://github.com/RaohaMejba/EcoHusk-Chatbot-LLM-Project/blob/main/Screenshots/Screenshot_2.png?raw=true" width="600"/>
 
 <br>
-
 
 ## About the EcoHusk Project
 
@@ -24,7 +22,7 @@ The EcoHusk project is an innovative eco-friendly and sustainable system that ut
 
 By producing multiple valuable outputs from a single process, EcoHusk increases energy efficiency and economic value, contributing to green energy and sustainable development goals.
 
----
+</br>
 
 ## Technologies Used
 
@@ -38,7 +36,7 @@ By producing multiple valuable outputs from a single process, EcoHusk increases 
 - **Environment Management**: Conda virtual environment
 - **Prompt Customization**: `prompt.py` for personalized assistant behavior
 
----
+</br>
 
 ## Project Setup Guide
 
@@ -69,9 +67,6 @@ Ensure the correct folder structure and run:
    pip install -e .
 
 <br><br>
-
-## Peoject Architecture
-<img src = "Screenshots/PjectArchitecture.png">
 
 ### Backend Workflow
 1. Select the Correct Kernel in VSCode
@@ -114,9 +109,6 @@ Upload the chunk embeddings into the Pinecone index.
 
 - Use OpenAI GPT model for intelligent answer generation<br><br><br>
 
-
-
-
 ### Frontend (Web UI)
 1. Flask Setup
 - Flask server (`app.py`) runs backend + frontend
@@ -139,12 +131,14 @@ Upload the chunk embeddings into the Pinecone index.
 
 
 
-## Execution Steps
+### Execution Steps
     ```bash
     conda activate EcoHusk4
     python app.py
   Then open http://localhost:8080 in your browser.<br><br><br>
 
+## Peoject Architecture
+<img src = "Screenshots/PjectArchitecture.png">
   
 
 ## Notable Features
