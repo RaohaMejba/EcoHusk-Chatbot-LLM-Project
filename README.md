@@ -2,7 +2,7 @@
 
 EcoHusk.AI is a fully customized, intelligent, and multilingual chatbot designed to answer questions related to the EcoHusk project. The system integrates advanced LLM techniques with vector databases to create a seamless question-answering experience for users through a web-based GUI.<br><br>
 
-### Screenshot of GUI APP
+## Screenshot of GUI APP
 
 <img src="https://github.com/RaohaMejba/EcoHusk-Chatbot-LLM-Project/blob/main/Screenshots/Screenshot_1.png?raw=true" width="600"/>
 
@@ -13,7 +13,7 @@ EcoHusk.AI is a fully customized, intelligent, and multilingual chatbot designed
 <br>
 
 
-### About the EcoHusk Project
+## About the EcoHusk Project
 
 The EcoHusk project is an innovative eco-friendly and sustainable system that utilizes **rice husk** to produce:
 - **Electricity**
@@ -67,7 +67,11 @@ Ensure the correct folder structure and run:
 
    ```bash
    pip install -e .
+
 <br><br>
+
+## Peoject Architecture
+<img src = "Screenshots/PjectArchitecture.png">
 
 ### Backend Workflow
 1. Select the Correct Kernel in VSCode
@@ -135,7 +139,7 @@ Upload the chunk embeddings into the Pinecone index.
 
 
 
-### Execution Steps
+## Execution Steps
     ```bash
     conda activate EcoHusk4
     python app.py
@@ -143,7 +147,7 @@ Upload the chunk embeddings into the Pinecone index.
 
   
 
-### Notable Features
+## Notable Features
 - Personalized for EcoHusk: Trained with custom project data for highly relevant answers
 
 - Handles Greetings and Emotions: Responds to greetings, polite questions, and user sentiment
@@ -160,12 +164,12 @@ Upload the chunk embeddings into the Pinecone index.
 
 
 
-### License
+## License
   This project is for academic and demonstration purposes under the [MIT License.](LICENSE)<br><br><br>
 
 
 
-### Contact
+## Contact
 **RAOHA BIN MEJBA (李一含)**
 
 Project Lead, EcoHusk
